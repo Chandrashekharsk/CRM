@@ -1,4 +1,3 @@
-// src/components/StatCard.jsx
 export default function StatCard({ title, value }) {
   return (
     <div className="bg-white rounded-lg shadow p-5">

@@ -1,4 +1,3 @@
-// src/data/data.js
 
 const DEFAULT_USERS = [
   {
@@ -14,6 +13,13 @@ const DEFAULT_USERS = [
     email: "employee@test.com",
     password: "emp123",
     role: "employee"
+  },
+  {
+    id: 3,
+    name: "User One",
+    email: "user@test.com",
+    password: "user123",
+    role: "user"
   }
 ]
 

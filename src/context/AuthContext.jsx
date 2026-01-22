@@ -1,4 +1,3 @@
-// src/context/AuthContext.jsx
 import { createContext, useContext, useEffect, useState } from "react"
 import { getUsers, saveUsers } from "../data/data";
 
@@ -55,5 +54,6 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   )
 }
+
 
 export const useAuth = () => useContext(AuthContext)
